@@ -1,0 +1,134 @@
+body {
+    max-width: 800px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    padding: 0.25em 1em 0em 1em;
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+article {
+    padding: 0em 0em 0em 0em;
+}
+
+h1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+h3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+p {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
+	text-align: justify;
+}
+
+.homelink {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+    text-align: center;
+}
+
+.homelink:hover {
+    opacity: .5;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1em;
+    padding: .5em .5em .5em .5em;
+}
+
+.wrapper > div{
+    display: block;
+    padding: 1em;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.blue {
+    background: #282B70;
+	color: white;
+}
+
+.gold {
+    background: #FDDE4F;
+}
+
+.bright {
+    background: #66C7F4;
+}
+
+
+footer {
+    text-align: right;
+    padding: 2em;
+    font-weight: 400;
+    font-size: .67em;
+}
+
+img {
+    display: block;
+    padding: 1em;
+}
+
+a {
+    color: #FC7138;
+    text-decoration: underline;
+}
+
+a:hover {
+    opacity: .5;
+}
+
+.nolink {
+    color: inherit;
+    text-decoration: none;
+}
+
+.ul {
+    text-decoration: underline;
+}
+
+.iframe {
+    text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	max-width: 100px;
+}
+
+.buffer {
+ padding: 1em;
+}
